@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.listaContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+    padding: 50px;
+}
+
+.listaTitulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.formContent{
+    display: flex;
+    gap: 10px;
+    text-align: start;
+}
+.formArea{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tarefaTitulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: start;
+}
+
+.inputTxt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: none;
+    width: 250px;
+    height: 30px;
+}
+.inputBtn::-moz-placeholder{
+    
+}
+
+.inputBtn{
+    border: none;
+    background-color: #d09d1e;
+    cursor: pointer;
+}
+
+.inputBtn:hover{
+    background-color: #f1d81b;
+    transition: all 500ms;
+    
+}
+
+.lista{
+    list-style: none;
+    padding: 0;
+}
+
+.tarefaItem{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
